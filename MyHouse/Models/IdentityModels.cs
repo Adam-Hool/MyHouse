@@ -29,5 +29,7 @@ namespace MyHouse.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<MyHouse.Models.Photo> Photos { get; set; }
     }
 }
